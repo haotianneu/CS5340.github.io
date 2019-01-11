@@ -1,77 +1,66 @@
-## Welcome to My Profolio
+# Northeastern University
+# CS 5340: Human-Computer Interaction
+## Created by Hao Tian
 
-Hi, My name is Hao! I am an entry level game designer and developer!
+### Individual Homework I: Project Ideas Proposals
 
-Feel free to check [my profile](https://www.linkedin.com/in/hao-tian-b405ba7a/)!
+#### Mr. Umbrella
 
-### My Works
-Feel free to clone any of the project and play! Hope you enjoy them!
+This is a 2D game project calls "Mr. Umbrella", the goal for this game is to use umbrellas to whether help the plants to survive or protect them from toxic elements (for example: heavy wind blowing or excess sunshine). The game idea is from a mobile game calls "Happy Glass", the goal of the Happy Glass is to draw a line to conduct the certain amount of  water into the glass.
 
-#### Mathris
-
-![Mathris image](/images/mathris.png)
-
-<p align="center">
-This is a puzzle game based on the Tetris.
-</p>
+![Happy Glass image](/images/hg.png)
 
 <p align="center">
-However, it is more than Tetris ... it has math in it!
+*Happy Glass* - [Apple Store Preview](https://itunes.apple.com/us/app/happy-glass/id1425793208?mt=8).
 </p>
 
-**My Job Titles**: Project Founder, Senior Developer, General Designer.
-###### Team Members:
-* **Anurag Sarkar**: Lead Developer, Mechanics Designer.
-* **Wendi Zhang**: Lead Artist, Theme Designer.
-* **Hongshen Xu:** Effect Artist, Concept Designer.
-* **Francisco Sepúlveda**: Audio Artist, Concept Designer.
+![Mr.U image](/images/mu.png)
 
-For more details see our work on [GitHub - Mathris](https://github.com/riffsircar/Mathris).
+<p align="center">
+Mr. Umbrella Sketch
+</p>
 
-#### Pyres
+Each number indicators in the graph shows the UI elements that users (players) can see and actions can take in the game scene:
+1. This area includes:
+    a. Level: the level that the player at.
+    b. Goal: number of plants they need to protects
+    c. Time: The remaining time.
+2. Use an umbrella to protect the plant from heavy wind blowing.
+3. Use an umbrella to guide water to the plant
+4. The indication from a plant
+5.  Number of umbrellas remaining.
 
-![Pyres image](/images/Pyres.jpeg)
+**The key UI design principle for this project is to keep minimal text and use simple graphic elements to guide users to learn and play.**  The UI in the Happy Glass is fairly simple as well: it start with teaching player how to draw a line by a finger without a single word appear on the game screen. More than that, the Happy Glass also use many graphic and art element to teach player how to play the game.
 
-This is a Ludum Dare Project which is designed and developed by three students from Northeastern Game Science and Design graduate program.
-
-**My Job Titles**: Lead Designer, Secondary Developer
-###### Team Members:
-* **Sidan Fan**: Lead Artist, **Idea Founder**.
-* **Fan Ling**: Lead Developer, Mechanics Designer.
-
-For more details see our work on [Ludum Dare - Pyres](https://ldjam.com/events/ludum-dare/43/pryes)
-
-#### Lazer Defender
-
-![Lazer Defender image](/images/Lazer_Defender.png)
-
-This is a individual project that follows the instruction of Udemy course:  
-*Complete C# Unity Developer 2D: Learn to Code Making Games* present by *Ben Tristem* and *Rick Davidson*.
-
-All art works are made by myself, including background, play items and particle effects.
-
-For more details see our work on [GitHub - Lazer_Defender](https://github.com/DamienTian/Lazer-Defender).
-
-#### Escape
-
-![Escape image](/images/escape.jpg)
-
-This is an analog game project of course GSND 5110 at Northeastern University.
-
-**My Job Titles**: Idea Founder, Mechanics Designer.
-###### Team Members:
-* **Wendi Zhang**: Lead Artist, Theme Designer.
-* **Fan Ling**: Lead Play Items Producer, Map Designer.
-
-Feel free to check our project blogs: [Escape](https://tianhao1.wixsite.com/gsnd5110project1)
-
-<!--#### Block Breaker-->
-<!---->
-<!--![Block Breaker image](/images/Block_Breaker.png)-->
-<!---->
-<!--This is a individual project that follows the instruction of Udemy course:  -->
-<!--*Complete C# Unity Developer 2D: Learn to Code Making Games* present by *Ben Tristem* and *Rick Davidson*.-->
-<!---->
-<!--For more details see our work on [GitHub - Block Breaker](https://github.com/riffsircar/Mathris).-->
+This project could be implement for PC or smartphone devices (Android and iOS systems). However, the very first prototype will be an PC game developed by Unity. The goal for this project is to generate a clear and good-looking UI in order to guide player to learn how to play the game efficiently and make player feel relax by playing the game (probably a little nervous when saving plants).
 
 
+#### Habit Builder
+
+![hb image](/images/hb.png)
+
+<p align="center">
+Habit Builder Sketch
+</p>
+
+The Habit Builder is a smart phone application for helping people build their habit, the application tracks users' progression on how well they did for building certain habits. Users can create the habit they want to build and decide how to build them, and they need to share their goals on social media for being supervised by others. Since this is a smartphone application, it would implemented for Android and IOS system. There are still many downsides concern with human factors (ex. How to guarantee users do what they said etc.) 
+
+There are many similar applications in the market, but the most of them are dates bases: which means they track users' progress in a static date range (ex. Jan 1 - 25). Unfortunately, people who doesn't have a constant schedule need a more flexible tracking plan since they might need to deal with some unexpected things and they can only build their habit in their fragmented free time. With the Habit Builder, users can build new habits with more flexible plans, which could also conduct to a simple user interface.
+
+#### GitHub Desktop Graphic Treeview
+
+![current gd image](/images/c_git.png)
+
+<p align="center">
+Current GitHub Desktop View
+</p>
+
+As a GitHub desktop user, I think the thing that GitHub could improve is to add a graphic tree to shows what changes were made, and who made at when. A tree graph is a clear representation for developers to check their progress, especially for a large project. This idea is from the SourceTree, despite I have terrible experience with the SourceTree on version control aspect, but I find the tree graph representation is a great thing to be considered by all version control GUI.
+
+![tree gd image](/images/tree_git.png)
+
+<p align="center">
+GitHub Desktop Graphic Treeview Sketch
+</p>
+
+The tree graph is generated when the project was initialized, the time line (tree) growth follows the further works on the project. Users can track the progress by click on each nodes on the tree. Furthermore, users can also customize the layout of the tree graph. Since the GitHub Desktop was provided for Windows and macOS systems, this project should be implemented on those operating systems. Unfortunately, it is hard for us to touch the code of the GitHub Desktop, so it is my least favorite idea proposal for being the course project.
